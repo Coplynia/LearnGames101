@@ -32,7 +32,7 @@ Eigen::Matrix4f get_model_matrix(float rotation_angle)
     model(0, 0) = cos(radian);
     model(0, 1) = -sin(radian);
     model(1, 0) = sin(radian);
-    model(1, 1) = -cos(radian);
+    model(1, 1) = cos(radian);
     model(2, 2) = 1.f;
     model(3, 3) = 1.f;
 
